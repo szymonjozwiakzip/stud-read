@@ -1,9 +1,10 @@
 .iframe-container {
   max-width:500px;
-  border: 5px solid #000000; /* Grubość i kolor ramki */
+  border: 35px solid #000000; /* Grubość i kolor ramki */
   border-radius: 20px; /* Zaokrąglenie narożników */
   overflow: hidden; /* Ukrycie zawartości poza ramką */
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Cień */
+  position: relative; /* Wymagane, aby pozycjonować dzieci wewnątrz */
 }
 
 /* Styl dla samego iframe */
@@ -11,3 +12,23 @@
   width: 100%;
   height: 730px;
 }
+
+/*.centered-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrowanie ikonki 
+}*/
+
+ /* Styl dla ikonek w dolnej krawędzi ramki */
+  .bottom-icons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bottom-icons img {
+    margin: 0 10px; /* Odstęp między ikonkami */
+  }
