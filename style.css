@@ -1,6 +1,6 @@
 .iframe-container {
   max-width:500px;
-  border: 35px solid #000000; /* Grubość i kolor ramki */
+  border: 26px solid #000000; /* Grubość i kolor ramki */
   border-radius: 20px; /* Zaokrąglenie narożników */
   overflow: hidden; /* Ukrycie zawartości poza ramką */
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Cień */
@@ -10,7 +10,7 @@
 /* Styl dla samego iframe */
 .iframe-container iframe {
   width: 100%;
-  height: 730px;
+  height: 750px;
 }
 
 /*.centered-icon {
@@ -31,4 +31,12 @@
 
   .bottom-icons img {
     margin: 0 10px; /* Odstęp między ikonkami */
+  }
+
+.black-bar {
+    background-color: #000000;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
