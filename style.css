@@ -1,20 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Oswald:wght@300&display=swap');
+
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+body{
+  width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
 .menu{
-  display: inline; /*domyślne elementy listy są elementami blokowymi, a to oznacza, że są umieszczone każdy w nowym wierszy, wartośc inline przekształca element wewnątrzwierszowy, przez co elementy listy będą w jednej linii */
+  display: inline; /*wartośc inline przekształca element wewnątrzwierszowy, przez co elementy listy będą w jednej linii */
   padding:20px;
 }
 
 a{
   font-size:20px;
-  text-decoration:none; /*usuwa domyślne podkreślenie*/
+  text-decoration:none;
   color:#c4144c;
+}
+
+a:hover{
+  color:#2b181e;
 }
 
 .definition-text {
   font-size:20px;
 }
-
+.iframe-display{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .iframe-container {
-  max-width:500px;
+  width:500px;
   border: 23px solid #000000; /* Grubość i kolor ramki */
   border-radius: 20px; /* Zaokrąglenie narożników */
   overflow: hidden; /* Ukrycie zawartości poza ramką */
