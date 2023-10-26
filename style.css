@@ -1,3 +1,18 @@
+.menu{
+  display: inline; /*domyślne elementy listy są elementami blokowymi, a to oznacza, że są umieszczone każdy w nowym wierszy, wartośc inline przekształca element wewnątrzwierszowy, przez co elementy listy będą w jednej linii */
+  padding:20px;
+}
+
+a{
+  font-size:20px;
+  text-decoration:none; /*usuwa domyślne podkreślenie*/
+  color:#c4144c;
+}
+
+.definition-text {
+  font-size:20px;
+}
+
 .iframe-container {
   max-width:500px;
   border: 23px solid #000000; /* Grubość i kolor ramki */
@@ -21,13 +36,17 @@
 }*/
 
  /* Styl dla ikonek w dolnej krawędzi ramki */
-  .bottom-icons {
+  .bottom-icon {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     text-align: center;
   }
+
+.bottom-icon:hover {
+  opacity: 0.6;
+}
 
 
 .black-bar {
