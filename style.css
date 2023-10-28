@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Oswald:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2family=Bebas+Neue&family=Oswald:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2family=Bebas+Neue&family=Oswald:wght@300&display=swap');
   
-h1{
-  font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Oswald', sans-serif;
+h1 { 
+  font-family: 'Bebas Neue', 'Dancing Script', 'Oswald', sans-serif;
 }
 
-body{
-  width:1100px;
-  margin-left:auto;
-  margin-right:auto;
-  font-family: 'Bebas Neue', sans-serif;
+body {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Oswald', sans-serif;
 }
 
